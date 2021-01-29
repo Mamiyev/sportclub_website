@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Фотоальбом</title>
+	<link rel="stylesheet" href="../style.css">
+ 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header-inner">
+				
+				<div class="header-logo">
+					<a class="logo" href="../index.php"><img src="../img/electron.png" width="65" height="65" alt="Electron"></a>
+					<a class="logo-title" href="../index.php">Студенческий спортивный клуб “Электрон” </a>
+					
+				</div>
+					
+				<nav class="navigator">
+					<ul>
+						<li><a href="../index.php">Главная</a></li>
+						<li><a href="articles.html">Статьи</a></li>
+						<li><a href="games.html">Турниры</a></li>
+						<li><a href="albom.html">Фотоальбом</a></li>
+					</ul>
+					<ul>
+						<li><a href="#" class="signIn">Войти</a></li>
+					</ul>
+				</nav>
+
+			</div>
+
+		</div>	
+		<div class="sign-block">
+			<div class="sign">
+				<a class="exit" href="#"><i><strong>X</strong></i></a>
+				<h4 class="sign-head">Вход</h4>
+				<form action="" id="sign-bl">
+					<div class="input-data">
+						<input type="text" name="username" placeholder="Введите логин">
+					</div>
+					<div class="input-data">
+						<input type="password" name="password" placeholder="Введите пароль">
+					</div>
+					<div class="input-btn">
+						<input type="submit" name="submit" value="ВОЙТИ">
+					</div>
+					
+					<div class="notReg">
+						<a href="../registration.php">Зарегистрироваться</a>
+					</div>
+				</form>	
+				
+			</div>
+		</div>
+	</header>
+
+
+	<div class="container">
+		<div class="gal-tit">
+			<h1>Фотоальбом</h1>
+		</div>
+		<div class="gallery">
+			<div><img src="https://via.placeholder.com/270x180" alt=""></div>
+			<div><img src="https://via.placeholder.com/270x180" alt=""></div>
+			<div><img src="https://via.placeholder.com/270x180" alt=""></div>
+			<div><img src="https://via.placeholder.com/270x180" alt=""></div>
+			<div><img src="https://via.placeholder.com/550x360" alt=""></div>
+			<div><img src="https://via.placeholder.com/550x360" alt=""></div>
+		</div>
+	</div>
+
+
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer-inner">
+				<div class="first">
+					2020 MIET
+				</div>
+				<div class="second"><p>Подписывайтесь на наши социальные сети</p></div>
+				<div class="third">
+					<a href="#">VK</a>
+					<a href="#">YouTube</a>
+				</div>
+			</div>
+
+		</div>
+	</footer> 
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.min.js"></script>
+	<script src="../js/sign-val.js"></script>
+	<script src="../js/sign.js"></script>
+</body>
+</html>
